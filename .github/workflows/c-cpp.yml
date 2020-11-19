@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	
+	cout << "Welcome to Thunder-S \n";
+	cout << "Type s to start \n";
+	char b;
+	cin >> b;
+	int x = 1;
+	
+	if (b == 's') {
+		while (true) {
+			cout << x;
+			cout << x;
+			x++;
+			cout << x;
+			cout << x;
+			cout << x;
+			cout << x;
+			x++;
+			cout << x;
+			cout << x;
+			cout << x;
+			cout << x;
+			x++;
+			cout << x;
+			cout << x;
+			cout << x;
+			cout << x;
+			x++;
+			cout << x;
+			cout << x;
+			}
+		}
+	
+	
+	return 0;
+	
+	}
